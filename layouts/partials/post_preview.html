@@ -1,0 +1,12 @@
+<article class="post-preview">
+    <span class="post-date">
+        {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
+        {{ $datestr | i18n "postedOnDate"}}
+        &bull;
+    </span>
+    <span>
+        <a href="{{ .Permalink }}">
+            <h2 class="post-title">{{ .Title }}</h2>
+        </a>
+    </span>
+</article>
