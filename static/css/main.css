@@ -345,7 +345,7 @@ footer .theme-by {
   padding: 5px 0;
   font-size: 16px;
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
 }
 
