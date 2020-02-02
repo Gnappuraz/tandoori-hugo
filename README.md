@@ -58,7 +58,7 @@ Centers the content wrapping it in a `div` with `text-align: center`:
 ```
 
 ## About
-This is a modification of the [Beautiful Hugo](https://github.com/halogenica/beautifulhugo) theme by [Michael Romero](http://halogenica.net/about/). 
+This is a restyle of the [Beautiful Hugo](https://github.com/halogenica/beautifulhugo) theme by [Michael Romero](http://halogenica.net/about/). 
 It supports most of the features of the original theme.
 
 ## License
