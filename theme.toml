@@ -4,7 +4,7 @@ licenselink = "https://github.com/gnappuraz/tandoori-hugo/blob/master/LICENSE"
 description = "A minilastic blog theme"
 tags = ["blog", "minimalist", "minimal", "responsive", "seo"]
 features = ["blog", "themes", "minimal", "responsive"]
-min_version = "0.59.1"
+min_version = "0.60.0"
 
 [author]
     name = "Gnappuraz"

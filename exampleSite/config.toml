@@ -3,12 +3,6 @@ DefaultContentLanguage = "en"
 title = "Tandoori Hugo"
 theme = "tandoori"
 metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
 #googleAnalytics = "XXX"
 
 [Params]
@@ -22,7 +16,6 @@ pygmentsCodefencesGuessSyntax = true
   comments = true
   readingTime = true
   wordCount = true
-  useHLJS = true
   socialShare = false
   showRelatedPosts = true
 #  hideAuthor = true

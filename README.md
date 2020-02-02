@@ -17,25 +17,7 @@ See [the Hugo documentation](https://gohugo.io/themes/installing/) for more info
 This theme is designed to look great on both large-screen and small-screen (mobile) devices.
 
 ### Syntax highlighting
-This theme has support for either Hugo's lightning fast Chroma, or both server side and client side highlighting. See [the Hugo docs for more](https://gohugo.io/content-management/syntax-highlighting/).
-
-#### Chroma - Server side syntax highlighting
-To enable Chroma, add the following to your site parameters:
-```
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-```
-Then, you can generate a different style by running:
-```
-hugo gen chromastyles --style=trac > static/css/syntax.css
-```
-
-#### Highlight.js - Client side syntax highlighting
-```
-[Params]
-    useHLJS = true
-```
-Client side highlighting does not require pygments to be installed. This will use `highlight.min.css` instead of `syntax.css` for highlighting (effectively disabling Chroma). Highlight.js has a wider range of support for languages and themes, and an alternative highlighting engine.
+This theme uses the default server-side Chroma highlighting, the style can be found in `css/style.css`.
 
 ### Google Analytics
 To add Google Analytics, simply sign up to [Google Analytics](https://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
